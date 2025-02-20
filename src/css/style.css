@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  /* --font-poppins: "poppins","sans-serif"; */
+  --font-sans: "poppins", "sans-serif";
+}
+
+@theme {
+  --animate-float-right: float-right 2.5s infinite;
+
+  @keyframes float-right {
+    0% {
+      transform: translatex(0);
+    }
+    50% {
+      transform: translatex(8px);
+    }
+    100% {
+      transform: translatex(0);
+    }
+  }
+}
+
+@theme {
+    --animate-opacity-pulse: opacity-pulse 2.5s infinite;
+  
+    @keyframes opacity-pulse {
+      0% {
+        opacity:1;
+      }
+      50% {
+        opacity:0.2;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+  }
