@@ -36,3 +36,7 @@
       }
     }
   }
+
+  @theme {
+    --background-image-nike: url('/src/img/bg.png');
+}

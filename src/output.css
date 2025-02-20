@@ -375,6 +375,7 @@
     );
     --animate-float-right: float-right 2.5s infinite;
     --animate-opacity-pulse: opacity-pulse 2.5s infinite;
+    --background-image-nike: url('/src/img/bg.png');
   }
 }
 @layer base {
@@ -1490,8 +1491,8 @@
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\/src\/img\/bg\.png\)\] {
-    background-image: url(/src/img/bg.png);
+  .bg-nike {
+    background-image: var(--background-image-nike);
   }
   .bg-none {
     background-image: none;
