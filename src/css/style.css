@@ -37,6 +37,15 @@
     }
   }
 
-  @theme {
+
+  /* BACKGROUND-IMAGE */
+  
+  /* @theme {
     --background-image-nike: url('/src/img/bg.png');
+} */
+
+/* OU */
+
+.bg-custom {
+  background-image: url('/src/img/bg.png');
 }
