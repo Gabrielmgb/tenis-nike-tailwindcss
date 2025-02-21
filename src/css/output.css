@@ -2324,7 +2324,7 @@
   }
 }
 .bg-custom {
-  background-image: url('/bg-custom.jpg');
+  background-image: url('../img/bg-custom.jpg');
 }
 @keyframes spin {
   to {
